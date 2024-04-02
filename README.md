@@ -54,7 +54,7 @@ To run this application, the following basic requirements need to be fulfilled:
     pip install gym
     ```
 
-3. **Deep Learning Framework**: Choose a deep learning framework such as TensorFlow or PyTorch. Install the chosen framework according to its documentation.
+3. **Deep Learning Framework**: Pytorch is being used here.
 
 4. **Implementation**: Implement the DQN algorithm in your chosen deep learning framework. You can find numerous tutorials and code examples online.
 
@@ -65,3 +65,5 @@ To run this application, the following basic requirements need to be fulfilled:
 7. **Documentation and Reporting**: Document your implementation thoroughly, including explanations of code and algorithms. Report on the performance of your DQN agent in solving the Cartpole problem.
 
 By meeting these basic requirements, you should be able to successfully apply Deep Q-Learning to the Cartpole Gym environment and observe the agent learning to balance the pole.
+
+The code implmentation is based on the Reinforcement Learning Lesson from Prof. Avi Kak's Deep Learning Course.
