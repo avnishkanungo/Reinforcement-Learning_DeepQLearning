@@ -42,27 +42,8 @@ Deep Q-Learning is an off-policy reinforcement learning algorithm that aims to l
 
 4. **End**
 
-## Basic Requirements
+The network os being optimized towards increasing the duration of the episode, so witht he decrease in the epsilon value ideally we should see an increase in the overall length of the episode that the cart pole balancing continues. This can be observed from the testing plots that are available to be seen after the 100th episode.
 
-To run this application, the following basic requirements need to be fulfilled:
-
-1. **Python Environment**: Ensure you have Python installed on your system.
-
-2. **OpenAI Gym**: Install OpenAI Gym, a toolkit for developing and comparing reinforcement learning algorithms. It can be installed via pip:
-
-    ```
-    pip install gym
-    ```
-
-3. **Deep Learning Framework**: Pytorch is being used here.
-
-4. **Implementation**: Implement the DQN algorithm in your chosen deep learning framework. You can find numerous tutorials and code examples online.
-
-5. **Cartpole Gym Environment**: The Cartpole environment is included in OpenAI Gym, so there's no need for additional installation.
-
-6. **Hardware Requirements**: Depending on the complexity of the neural network and the training environment, you may need a GPU for faster training.
-
-7. **Documentation and Reporting**: Document your implementation thoroughly, including explanations of code and algorithms. Report on the performance of your DQN agent in solving the Cartpole problem.
 
 By meeting these basic requirements, you should be able to successfully apply Deep Q-Learning to the Cartpole Gym environment and observe the agent learning to balance the pole.
 
